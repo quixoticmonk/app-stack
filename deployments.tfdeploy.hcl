@@ -8,7 +8,7 @@ store "varset" "tokens" {
 }
 
 
-upstream_input "networking_stack" {
+upstream_input "network_stack" {
   type   = "stack"
   source = "app.terraform.io/wellsiau-org/manu-experiments/network-stack"
 }
