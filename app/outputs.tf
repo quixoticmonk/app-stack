@@ -1,4 +1,4 @@
 output "subnet_id" {
-  value = aws_subnet.example.id
+  value = data.aws_vpc.selected.id
 
 }
