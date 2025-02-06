@@ -17,7 +17,8 @@ deployment "dev" {
   inputs = {
     identity_token          = identity_token.aws.jwt
     role_arn                = store.varset.tokens.role_dev
-
+    
+    dummy_input =upstream_input.network_stack.test_out
     vpc_id = upstream_input.network_stack.vpc_id
   }
 }

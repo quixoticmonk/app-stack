@@ -1,4 +1,4 @@
-output "_id"{
-  value=component.app.vpc_id
+output "subnet_id"{
+  value=component.app.subnet_id
   type=string
 }
