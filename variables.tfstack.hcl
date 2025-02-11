@@ -12,6 +12,10 @@ variable "vpc_id" {
   type = string
 
 }
+variable "vpc_id2" {
+  type = string
+
+}
 
 variable "dummy_input"{
   type=string
