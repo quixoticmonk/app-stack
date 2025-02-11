@@ -25,6 +25,6 @@ deployment "dev" {
     
     dummy_input =upstream_input.network_stack.test_out
     vpc_id = upstream_input.network_stack.vpc_id
-    vpc_id2 = upstream_input.nw_stack.vpc_id2
+    vpc_id2 = upstream_input.nw_stack.vpc_id
   }
 }
